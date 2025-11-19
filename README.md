@@ -1,8 +1,6 @@
 <div align="center">
-<h1> Multi-Perturbation Consistency Learning for Semi-Supervised Medical Image Segmentation (JBHI 2026) </h1>
+<h1> Multi-Perturbation Consistency Learning for Semi-Supervised Medical Image Segmentation (JBHI 2025) </h1>
 </div>
-
-<b>by Zhiyuan Zhang,Yu Zhang et al.</b>
 ![image](framework.png)
 # Semi-Supervised Medical Image Segmentation via Multi-Perturbation Consistency Learning
 
@@ -30,7 +28,7 @@ These designs effectively overcome the instability problem in multi-perturbation
 ```bash
 git clone https://github.com/hai-medicallab/MPCL4SSL.git
 ```
-This repository is based on PyTorch 1.11.0, CUDA 11.3 and Python 3.7.13. All experiments in our paper were conducted on NVIDIA GeForce RTX 3090 GPU with an identical experimental setting.
+This repository is based on PyTorch 2.0.1, CUDA 12.4 and Python 3.10. All experiments in our paper were conducted on NVIDIA GeForce A6000 GPU with an identical experimental setting.
 ```
 
 pip install -r requirements.txt
@@ -58,11 +56,12 @@ python ./code/test_X.py  # for X testing
 ## Citation
 If you find these projects useful, please consider citing:
 ```bibtex
-@ARTICLE{10508053,
-  author={},
+@ARTICLE{3625190,
+  author={ Zhiyuan Zhang, Yu Zhang, Jing Chen, Wenlong Feng, Zihao Zhou, Jie Zou, Uzair Aslam Bhatti,
+ Gang Wang, Mengxing Huang, Zhiming Bai},
   journal={IEEE Journal of Biomedical and Health Informatics}, 
   title={Multi-Perturbation Consistency Learning for Semi-Supervised Medical Image Segmentation}, 
-  year={2026},
+  year={2025},
   keywords={Semi-supervised Learning, Medical Image Segmentation,CNN,Consistency Learning},
   doi={10.1109/JBHI.2025.3625190}}
 ```
