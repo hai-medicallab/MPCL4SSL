@@ -29,13 +29,17 @@ These designs effectively overcome the instability problem in multi-perturbation
 ```bash
 git clone https://github.com/hai-medicallab/MPCL4SSL.git
 ```
-This repository is based on PyTorch 2.0.1, CUDA 12.4 and Python 3.10. All experiments in our paper were conducted on NVIDIA GeForce A6000 GPU with an identical experimental setting.
+This repository is based on PyTorch 2.0.1, CUDA 12.4 and Python 3.10. All experiments in our paper were conducted on NVIDIA RTX A6000 GPU with an identical experimental setting.
 ```
 
 pip install -r requirements.txt
 ```
 ## 2. Dataset
-Data could be got at [X](https://prostatex.grand-challenge.org/).
+Data could be got at [X](https://prostatex.grand-challenge.org/),
+Then, run python script to preprocess the data.
+```
+python ./dataloader/X_preprocessing.py  
+```
 ```
 ├── ./data
     ├── [X]
@@ -48,11 +52,11 @@ Data could be got at [X](https://prostatex.grand-challenge.org/).
 ## 3. Usage
 To train a model,
 ```
-python train_X.py  # for X training 
+python ./train_X.py  # for X training 
 ``` 
 To test a model,
 ```
-python ./code/test_X.py  # for X testing
+python ./test_X.py  # for X testing
 ```
 ## Citation
 If you find these projects useful, please consider citing:
