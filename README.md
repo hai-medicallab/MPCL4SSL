@@ -62,7 +62,7 @@ python ./test_X.py  # for X testing
 If you find these projects useful, please consider citing:
 ```bibtex
 @ARTICLE{3625190,
-  author={ Zhiyuan Zhang, Yu Zhang, Jing Chen, Wenlong Feng, Zihao Zhou, Jie Zou, Uzair Aslam Bhatti,
+  author={Zhiyuan Zhang, Yu Zhang, Jing Chen, Wenlong Feng, Zihao Zhou, Jie Zou, Uzair Aslam Bhatti,
  Gang Wang, Mengxing Huang, Zhiming Bai},
   journal={IEEE Journal of Biomedical and Health Informatics}, 
   title={Multi-Perturbation Consistency Learning for Semi-Supervised Medical Image Segmentation}, 
