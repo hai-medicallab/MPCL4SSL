@@ -1,6 +1,7 @@
 <div align="center">
 <h1> Multi-Perturbation Consistency Learning for Semi-Supervised Medical Image Segmentation (JBHI 2025) </h1>
 </div>
+
 ![image](framework.png)
 # Semi-Supervised Medical Image Segmentation via Multi-Perturbation Consistency Learning
 
